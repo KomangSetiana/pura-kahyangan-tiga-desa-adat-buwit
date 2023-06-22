@@ -202,7 +202,15 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
-  filter: brightness(50%);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.team .content-team .card-team img {
+  border-radius: 50%;
+  width: 50%;
 }
 
 /* Footer Section */

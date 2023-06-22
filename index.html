@@ -18,6 +18,9 @@
 
     <!-- My Css -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Navbar start -->
@@ -36,7 +39,7 @@
 
     <!-- Heo Start -->
     <section class="hero" id="home">
-      <main class="content">
+      <main class="content" data-aos="fade-down">
         <h1>Pura Kahyangan Tiga Desa <span>Buwit</span></h1>
         <p>
           Pura Kahyangan Tiga terdiri dari 3 pura, yaitu pura desa, pura puseh,
@@ -49,14 +52,14 @@
 
     <!-- Tenple Start -->
     <section id="temple" class="temple">
-      <h2><span>Pura</span> Khayangan Tiga</h2>
+      <h2 data-aos="fade-down"><span>Pura</span> Khayangan Tiga</h2>
 
       <div class="row">
-        <div class="dalem-temple">
+        <div class="dalem-temple" data-aos="zoom-in">
           <img src="img/pura-dalem.jpg" alt="pura dalem" />
           <h4><a href="#">Pura Dalem</a></h4>
         </div>
-        <div class="puseh-temple">
+        <div class="puseh-temple" data-aos="zoom-in-up">
           <img src="img/pura-puseh.jpg" alt="pura puseh&desa" />
           <h4><a href="#">Pura Puseh & Desa</a></h4>
         </div>
@@ -66,15 +69,38 @@
 
     <!-- Team Section Start -->
     <secction id="team" class="team">
-      <h2><span>Team</span> Kami</h2>
-      <div class="content-team"></div>
+      <h2 data-aos="fade-down"><span>Team</span> Kami</h2>
+      <div class="content-team">
+        <!-- <div class="row"> -->
+        <div class="card-team" data-aos="flip-up">
+          <img src="img/setiana.jpg" alt="" />
+          <h3 class="card-tittle">I Komang Setiana</h3>
+        </div>
+        <div class="card-team" data-aos="flip-down">
+          <img src="img/setiana.jpg" alt="" />
+          <h3 class="card-tittle">I Komang Setiana</h3>
+        </div>
+        <div class="card-team" data-aos="zoom-in-down">
+          <img src="img/setiana.jpg" alt="" />
+          <h3 class="card-tittle">I Komang Setiana</h3>
+        </div>
+        <div class="card-team" data-aos="zoom-in-left">
+          <img src="img/setiana.jpg" alt="" />
+          <h3 class="card-tittle">I Komang Setiana</h3>
+        </div>
+        <div class="card-team" data-aos="zoom-out-down">
+          <img src="img/setiana.jpg" alt="" />
+          <h3 class="card-tittle">I Komang Setiana</h3>
+        </div>
+        <!-- </div> -->
+      </div>
     </secction>
 
     <!-- Team Section End-->
 
     <!-- Footer Start -->
     <footer>
-      <div class="social">
+      <div class="social" data-aos="zoom-out">
         <a href="#"><i data-feather="instagram"></i></a>
         <a href="#"><i data-feather="twitter"></i></a>
         <a href="#"><i data-feather="facebook"></i></a>
@@ -99,5 +125,9 @@
     <!-- My Javascript -->
 
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
