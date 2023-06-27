@@ -328,7 +328,7 @@ body {
   text-align: center;
   /* font-size: 18px; */
   background: #fff;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
@@ -508,7 +508,7 @@ footer .credit a {
   .hero-pura-dalem {
     height: 100vh;
   }
-  .swiper {
+  .galeries .swiper {
     width: 100%;
     height: 30vh;
   }
