@@ -256,7 +256,7 @@ body {
 
 .team .content-team .swiper-slide img {
   border-radius: 50%;
-  width: 11%;
+  width: 20%;
 }
 
 /* Hero Pura */
@@ -466,6 +466,7 @@ footer .credit a {
   }
   #hamburger-menu {
     display: inline-block;
+    /* padding-right: 1rem; */
   }
   .navbar .navbar-nav {
     position: absolute;
