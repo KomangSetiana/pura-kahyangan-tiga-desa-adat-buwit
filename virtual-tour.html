@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pura Kahyangan Tiga Desa Buwit</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Swipper Js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- My Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="index.html" class="navbar-logo"
+        ><i data-feather="arrow-left"></i
+      ></a>
+      <a href="#" class="navbar-logo">Virtual<span>Tour</span>.</a>
+
+      <div class="navbar-nav">
+        <!-- <a href="#virtualTour">Virtual Tour</a> -->
+      </div>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Tenple Start -->
+    <section id="temple" class="temple">
+      <h2 data-aos="fade-down" data-aos-duration="1500">
+        <span>Virtual</span> Tour
+      </h2>
+      <div class="row">
+        <div class="card-pura" data-aos="fade-right" data-aos-duration="1500">
+          <div class="image-content">
+            <span class="overlay-pura"></span>
+            <div class="pura-image">
+              <img
+                src="img/pura-dalem-index.jpg"
+                alt="pura dalem"
+                class="pura-img"
+              />
+            </div>
+          </div>
+          <div class="pura-content">
+            <h2 class="name-pura">Pura Dalem</h2>
+            <p class="description-pura">
+              Anda bisa melakukan virtual tour untuk menelusuri seluruh wilayah
+              pura Dalem, Desa Adat Buwit secara virtual untuk mengetahui lebih
+              detail keseluruhan pura.
+            </p>
+            <a href="#" class="button"><i data-feather="eye"></i></a>
+          </div>
+        </div>
+        <div class="card-pura" data-aos="fade-left" data-aos-duration="2000">
+          <div class="image-content">
+            <span class="overlay-pura"></span>
+            <div class="pura-image">
+              <img
+                src="img/pura-puseh&desa.jpg"
+                alt="pura dalem"
+                class="pura-img"
+              />
+            </div>
+          </div>
+          <div class="pura-content">
+            <h2 class="name-pura">Pura Puseh & Desa</h2>
+            <p class="description-pura">
+              Anda bisa melakukan virtual tour untuk menelusuri seluruh wilayah
+              pura Puseh & Desa, Desa Adat Buwit secara virtual untuk mengetahui
+              lebih detail keseluruhan pura.
+            </p>
+            <a href="#" class="button"><i data-feather="eye"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tenple End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="social" data-aos="zoom-out">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#temple">Pura</a>
+        <a href="#team">Team</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">omed omedan group</a>. | &copy; 2023.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+    </script>
+  </body>
+</html>
