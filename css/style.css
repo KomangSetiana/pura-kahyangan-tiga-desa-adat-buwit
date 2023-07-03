@@ -636,6 +636,11 @@ footer .credit a {
   .location .row {
     flex-wrap: wrap;
   }
+  .modal-content {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
 }
 /* Mobile Phone */
 @media (max-width: 450px) {
