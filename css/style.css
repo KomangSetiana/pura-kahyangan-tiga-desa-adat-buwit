@@ -651,6 +651,11 @@ footer .credit a {
     font-size: 1.2rem;
     line-height: 1.4rem;
   }
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+    color: #2b2828;
+  }
 }
 /* Mobile Phone */
 @media (max-width: 450px) {

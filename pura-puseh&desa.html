@@ -88,7 +88,7 @@
     <!-- History Start -->
 
     <!-- Galery Start -->
-    <section class="galeries pura-puseh" id="galeries">
+    <section class="galeries" id="galeries">
       <h2 data-aos="fade-down" data-aos-duration="2000">
         Gal<span>lery</span>
       </h2>
@@ -201,7 +201,7 @@
             </div>
             <div class="swiper-slide">
               <div class="galery-icon">
-                <p>Pawaregan</p>
+                <p>Pewaregan</p>
               </div>
               <a href="" class="modal-open" data-modal="modal13"
                 ><img src="img/pawaregan-puseh.jpg" alt=""
@@ -296,7 +296,9 @@
               /></a>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-scrollbar"></div>
         </div>
       </div>
     </section>
@@ -630,7 +632,7 @@
         <div class="modal-content">
           <img src="img/pawaregan-puseh.jpg" alt="" />
           <div class="product-content">
-            <h3>Pewareganr</h3>
+            <h3>Pewaregan</h3>
             <p>sebagai dapur pura</p>
             <p><span>Panjang:</span> 9,63 m</p>
             <p><span>Lebar:</span> 5,72 m</p>
@@ -878,9 +880,17 @@
       var swiper = new Swiper(".swiperMy", {
         slidesPerView: 3,
         spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          hide: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
       });
     </script>
