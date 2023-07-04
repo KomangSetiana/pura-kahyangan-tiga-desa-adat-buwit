@@ -378,13 +378,21 @@ body {
 
 .history,
 .galeries,
-.location {
+.location,
+.model3d {
   padding: 8rem 7% 1.4rem;
+}
+
+.model3d h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
 }
 
 .history h2 span,
 .location h2 span,
-.galeries h2 span {
+.galeries h2 span,
+.model3d h2 span {
   color: var(--primary);
   font-size: 2.6rem;
 }
@@ -451,6 +459,31 @@ body {
   object-fit: cover;
   padding-top: 1rem;
 }
+
+/* 3D Model */
+.model3d .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #161414;
+}
+.model3d .content-video,
+.model3d .content-video-puseh {
+  margin: 2rem;
+}
+.model3d .content-video video {
+  float: center;
+  width: 25rem;
+}
+.model3d .content-video-puseh video {
+  width: 20rem;
+  float: center;
+}
+.model3d .content-video-puseh,
+.model3d .content-video {
+  text-align: center;
+}
+
 /* Footer Section */
 
 footer {
@@ -651,10 +684,8 @@ footer .credit a {
     font-size: 1.2rem;
     line-height: 1.4rem;
   }
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: none;
-    color: #2b2828;
+  .model3d .row {
+    flex-wrap: wrap;
   }
 }
 /* Mobile Phone */
