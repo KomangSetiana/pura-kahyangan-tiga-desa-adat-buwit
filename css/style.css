@@ -641,11 +641,15 @@ footer .credit a {
     justify-content: center;
   }
   .modal-content img {
-    width: 18rem;
+    width: 12rem;
   }
-  .galeries .pura-puseh .swiper-pagination {
-    margin-top: 3rem;
-    width: 2px;
+  .modal-content h3 {
+    font-size: 2rem;
+  }
+
+  .modal-content p {
+    font-size: 1rem;
+    line-height: 1.4rem;
   }
 }
 /* Mobile Phone */
