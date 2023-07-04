@@ -542,8 +542,7 @@ footer .credit a {
 }
 .modal-content img {
   height: 24rem;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
+  margin-right: 2.5rem;
 }
 
 .modal-content p {
@@ -640,6 +639,9 @@ footer .credit a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+  }
+  .modal-content img {
+    width: 18rem;
   }
 }
 /* Mobile Phone */
