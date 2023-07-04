@@ -643,6 +643,10 @@ footer .credit a {
   .modal-content img {
     width: 18rem;
   }
+  .galeries .pura-puseh .swiper-pagination {
+    margin-top: 3rem;
+    width: 2px;
+  }
 }
 /* Mobile Phone */
 @media (max-width: 450px) {
