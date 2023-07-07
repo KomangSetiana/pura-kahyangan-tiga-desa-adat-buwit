@@ -42,6 +42,9 @@ body {
   color: #fff;
   font-style: italic;
 }
+.navbar .navbar-logo img {
+  width: 3rem;
+}
 .navbar .navbar-logo span {
   color: var(--primary);
 }

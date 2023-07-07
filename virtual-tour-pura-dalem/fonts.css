@@ -1,0 +1,24 @@
+@font-face {
+   font-family: "Bali Simbar-B";
+   src: url("fonts/Bali Simbar-B.eot") format("embedded-opentype"), url("fonts/Bali Simbar-B.ttf") format("truetype"), url("fonts/Bali Simbar-B.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Product Sans";
+   src: url("fonts/Product Sans.eot") format("embedded-opentype"), url("fonts/Product Sans.ttf") format("truetype"), url("fonts/Product Sans.woff") format("woff"), url("fonts/Product Sans.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Agency FB";
+   src: url("fonts/Agency FB Bold.eot") format("embedded-opentype"), url("fonts/Agency FB Bold.TTF") format("truetype"), url("fonts/Agency FB Bold.woff") format("woff"), url("fonts/Agency FB Bold.svg") format("svg");
+   font-weight: bold;
+   font-style: normal;
+}
+@font-face {
+   font-family: "Agency FB";
+   src: url("fonts/Agency FB.eot") format("embedded-opentype"), url("fonts/Agency FB.TTF") format("truetype"), url("fonts/Agency FB.woff") format("woff"), url("fonts/Agency FB.svg") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
